@@ -12,3 +12,12 @@ let mayday = `My ideal day involves:
 2.Exersize daily
 3.Code daily`
 console.log(mayday)
+
+//Question
+function calculateArea(width:number, height:number): number{
+    return width * height
+}
+
+let calculateAreaArrow = (width:number , height:number) : number => width * height
+
+console.log(calculateAreaArrow(8, 4))
